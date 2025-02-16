@@ -9,18 +9,12 @@
     src: url('fonts/B-NAZANIN.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-size: 4rem;
 }
-@font-face {
-    font-family: 'IranNastaliq';
-    src: url('fonts/IranNastaliq.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /* Body */
 body {
-    font-family: 'IranNastaliq', sans-serif; /* فونت ایران نستعلیق */
+    font-family: 'Bnazanin', sans-serif; /* فونت ایران نستعلیق */
     direction: rtl;
     text-align: right;
     background-color: #808080; /* پس‌زمینه خاکستری */
@@ -105,7 +99,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: 'B-NAZANIN', sans-serif;
+    font-family: 'Bnazanin', sans-serif;
 }
 
 .person-card a:hover {
