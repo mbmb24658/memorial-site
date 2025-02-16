@@ -33,12 +33,12 @@ header {
 
 header h1 {
     margin-bottom: 10px;
-    font-size: 4rem;
+    font-size: 8rem;
     font-weight: bold;
 }
 
 header p {
-    font-size: 3rem;
+    font-size: 6rem;
     color: #b0b0b0; /* رنگ متن فرعی */
 }
 
@@ -79,14 +79,14 @@ main {
 }
 
 .person-card h2 {
-    font-size: 3.2rem;
+    font-size: 6.4rem;
     margin: 15px 0;
     color: #ffffff; /* رنگ عنوان */
 }
 
 .person-card p {
     padding: 0 15px;
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: #b0b0b0; /* رنگ متن فرعی */
 }
 
@@ -129,7 +129,7 @@ main {
 }
 
 .person-details p {
-    font-size: 3rem;
+    font-size: 6rem;
     line-height: 1.8;
     color: #e0e0e0; /* رنگ متن اصلی */
 }
@@ -158,11 +158,11 @@ footer a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 3.5rem;
+        font-size: 7rem;
     }
 
     header p {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .person-card {
