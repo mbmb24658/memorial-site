@@ -7,21 +7,21 @@
 
 /* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'IranNastaliq', sans-serif; /* فونت ایران نستعلیق */
     direction: rtl;
     text-align: right;
-    background-color: #1a1a1a; /* رنگ پس‌زمینه تاریک */
+    background-color: #808080; /* پس‌زمینه خاکستری */
     color: #e0e0e0; /* رنگ متن روشن */
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #121212; /* رنگ هدر تاریک‌تر */
+    background-color: #606060; /* رنگ هدر خاکستری تیره‌تر */
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #404040;
 }
 
 header h1 {
@@ -50,7 +50,7 @@ main {
 
 /* Person Card */
 .person-card {
-    background-color: #242424; /* رنگ کارت تاریک */
+    background-color: #707070; /* رنگ کارت خاکستری */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -68,7 +68,7 @@ main {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #404040;
 }
 
 .person-card h2 {
@@ -87,7 +87,7 @@ main {
     display: inline-block;
     margin: 15px 0;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #404040;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
@@ -95,7 +95,7 @@ main {
 }
 
 .person-card a:hover {
-    background-color: #555;
+    background-color: #505050;
 }
 
 /* Person Details */
@@ -111,14 +111,14 @@ main {
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 20px;
-    border: 2px solid #333;
+    border: 2px solid #404040;
 }
 
 .person-details video {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
-    border: 2px solid #333;
+    border: 2px solid #404040;
 }
 
 .person-details p {
@@ -129,12 +129,12 @@ main {
 
 /* Footer */
 footer {
-    background-color: #121212; /* رنگ فوتر تاریک‌تر */
+    background-color: #606060; /* رنگ فوتر خاکستری تیره‌تر */
     color: #ffffff;
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
-    border-top: 2px solid #333;
+    border-top: 2px solid #404040;
 }
 
 footer a {
