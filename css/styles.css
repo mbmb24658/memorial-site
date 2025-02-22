@@ -19,6 +19,14 @@ body {
 }
 
 @font-face {
+    font-family: 'IranNastaliq';
+    src: url('fonts/IranNastaliq.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size:32rem;
+}
+
+@font-face {
     font-family: 'Bnazanin';
     src: url('fonts/B-NAZANIN.TTF') format('truetype');
     font-weight: normal;
