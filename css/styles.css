@@ -141,6 +141,7 @@ main {
 }
 
 .person-details p {
+    background-color: lightgray;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #e0e0e0; /* رنگ متن اصلی */
