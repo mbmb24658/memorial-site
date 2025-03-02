@@ -115,7 +115,7 @@ main {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: 'Bnazanin', sans-serif; /* تغییر فونت به Bnazanin */
+    font-family: 'Bnazanin', 'sans-serif'; /* تغییر فونت به Bnazanin */
     font-size: 1.1rem; /* اندازه فونت */
 }
 
@@ -131,7 +131,7 @@ main {
 }
 .person-details table 
 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', 'Helvetica','sans-serif';
   border-collapse: collapse;
   width: 100%;
 }
@@ -182,7 +182,7 @@ main {
     max-height: 800px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     border: 2px solid #404040;
 }
 
@@ -196,7 +196,7 @@ main {
 .person-details p {
     border-style: dotted;
     align: justify;
-/*     background-color: lightgray; */
+    background-color: #000000;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #e0e0e0; /* رنگ متن اصلی */
