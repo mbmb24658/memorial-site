@@ -93,6 +93,12 @@ main {
     margin: 15px 0;
     color: #ffffff; /* رنگ عنوان */
 }
+.person-card h5 {
+    background-color: lightgray;
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #ffffff; /* رنگ عنوان */
+}
 
 .person-card p {
     padding: 0 15px;
@@ -141,6 +147,7 @@ main {
 }
 
 .person-details p {
+    align: justify;
     background-color: lightgray;
     font-size: 1.2rem;
     line-height: 1.8;
