@@ -235,6 +235,6 @@ footer a:hover {
     }
 
     .person-details img, .person-details video {
-        max-height: 300px;
+        max-height: 800px;
     }
 }
