@@ -5,19 +5,16 @@
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     background: linear-gradient(135deg, #1a1a1a, #4a4a4a, #1a1a1a);
     background-size: 200% 200%;
     animation: gradientAnimation 10s ease infinite;
-/*     color: #ffffff; */
     font-family: 'Bnazanin', sans-serif;
     direction: rtl;
     text-align: right;
-    background-color: #1a1a1a;
     color: #e0e0e0;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
 
 @keyframes gradientAnimation {
@@ -26,12 +23,12 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+/* Fonts */
 @font-face {
     font-family: 'IranNastaliq';
     src: url('fonts/IranNastaliq.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-size:32rem;
 }
 
 @font-face {
@@ -40,96 +37,30 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
 /* Header */
 header {
     background-color: #121212;
     color: #ffffff;
-    padding: 10px 0; /* کاهش padding */
+    padding: 10px 0;
     text-align: center;
     border-bottom: 2px solid #333;
-    height: 60px; /* ارتفاع هدر */
 }
 
 header h1 {
-    margin: 0; /* حذف margin پیش‌فرض */
-    font-size: 1.5rem; /* کاهش اندازه فونت */
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 header p {
-    font-size: 0.9rem; /* کاهش اندازه فونت */
+    font-size: 0.9rem;
     color: #b0b0b0;
-    margin: 5px 0 0; /* تنظیم margin */
+    margin: 5px 0 0;
 }
 
 /* Main Content */
 main {
     padding: 20px;
-}
-
-/* Person List */
-.person-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Person Card */
-.person-card {
-    background-color: #707070; /* رنگ کارت خاکستری */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.person-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-}
-
-.person-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom: 2px solid #404040;
-}
-
-.person-card h2 {
-    font-size: 1.5rem;
-    margin: 15px 0;
-    color: #ffffff; /* رنگ عنوان */
-}
-.person-card h5 {
-    background-color: lightgray;
-    font-size: 1.5rem;
-    margin: 15px 0;
-    color: #ffffff; /* رنگ عنوان */
-}
-
-.person-card p {
-    padding: 0 15px;
-    font-size: 1rem;
-    color: #b0b0b0; /* رنگ متن فرعی */
-}
-
-.person-card a {
-    display: inline-block;
-    margin: 15px 0;
-    padding: 10px 20px;
-    background-color: #404040;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    font-family: 'Bnazanin', 'sans-serif'; /* تغییر فونت به Bnazanin */
-    font-size: 1.1rem; /* اندازه فونت */
-}
-
-.person-card a:hover {
-    background-color: #505050;
 }
 
 /* Person Details */
@@ -138,76 +69,13 @@ main {
     margin: 0 auto;
     text-align: center;
 }
-.person-details body {
-    background: linear-gradient(135deg, #1a1a1a, #4a4a4a, #1a1a1a);
-    background-size: 200% 200%;
-    animation: gradientAnimation 10s ease infinite;
-/*     color: #ffffff; */
-    font-family: 'Bnazanin', sans-serif;
-    direction: rtl;
-    text-align: right;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-.person-details table 
-{
-  font-family: 'Arial', 'Helvetica','sans-serif';
-  border-collapse: collapse;
-  width: 100%;
-}
 
-.person-details tr:nth-child(even)
-{
-    background-color: #f2f2f2;
-    
-}
-
-.person-details tr:hover 
-{
-    background-color: #2F4F4F;
-    color: #000000;
-}
-.person-details th, td
-{
-
-  border: 1px solid white;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-.person-details th{
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
-.person-details hr
-{
-    background-color:#000000;
-    border-width:0;
-    color:#000000;
-    height:2px;
-    line-height:0;
-    text-align:left;
-    width:50%;
-}
-.person-details span {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
 .person-details img {
     width: 100%;
     max-height: 800px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     border: 2px solid #404040;
 }
 
@@ -219,17 +87,60 @@ main {
 }
 
 .person-details p {
-    border-style: dotted;
-    align: justify;
+    text-align: justify;
     background-color: #000000;
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #e0e0e0; /* رنگ متن اصلی */
+    color: #e0e0e0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.person-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.person-details th, .person-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.person-details th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.person-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.person-details tr:hover {
+    background-color: #2F4F4F;
+    color: #000000;
+}
+
+.person-details hr {
+    border: 0;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 0;
+}
+
+.person-details span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 5px;
 }
 
 /* Footer */
 footer {
-    background-color: #606060; /* رنگ فوتر خاکستری تیره‌تر */
+    background-color: #606060;
     color: #ffffff;
     text-align: center;
     padding: 15px 0;
@@ -258,27 +169,12 @@ footer a:hover {
         font-size: 0.8rem;
     }
 
-    .person-card {
-        width: 100%;
-    }
-
     .person-details img, .person-details video {
-        max-height: 800px;
+        max-height: 500px;
     }
-    .container {
-    width: 90%;
-    max-width: 1200px; /* حداکثر عرض برای دسکتاپ */
-    margin: 0 auto;
-    padding: 20px;
 }
-    
-/* برای موبایل‌ها */
-@media (max-width: 480px) {
-    .person-details {
-        width: 100%;
-        padding: 5px;
-    }
 
+@media (max-width: 480px) {
     header h1 {
         font-size: 1rem;
     }
@@ -286,5 +182,8 @@ footer a:hover {
     header p {
         font-size: 0.7rem;
     }
-}
+
+    .person-details img, .person-details video {
+        max-height: 300px;
+    }
 }
