@@ -148,11 +148,13 @@ main {
 .person-details tr:nth-child(even)
 {
     background-color: #f2f2f2;
+    
 }
 
 .person-details tr:hover 
 {
     background-color: #ddd;
+    color: #000000;
 }
 .person-details th, td
 {
