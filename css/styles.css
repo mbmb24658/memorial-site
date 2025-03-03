@@ -9,7 +9,15 @@ body {
     background: linear-gradient(135deg, #1a1a1a, #4a4a4a, #1a1a1a);
     background-size: 200% 200%;
     animation: gradientAnimation 10s ease infinite;
-    color: #ffffff;
+/*     color: #ffffff; */
+    font-family: 'Bnazanin', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 @keyframes gradientAnimation {
@@ -34,22 +42,23 @@ body {
 }
 /* Header */
 header {
-    background-color: #606060; /* رنگ هدر خاکستری تیره‌تر */
+    background-color: #121212;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 10px 0; /* کاهش padding */
     text-align: center;
-    border-bottom: 2px solid #404040;
+    border-bottom: 2px solid #333;
+    height: 60px; /* ارتفاع هدر */
 }
 
 header h1 {
-    margin-bottom: 10px;
-    font-size: 2.5rem;
-    font-weight: bold;
+    margin: 0; /* حذف margin پیش‌فرض */
+    font-size: 1.5rem; /* کاهش اندازه فونت */
 }
 
 header p {
-    font-size: 1.2rem;
-    color: #b0b0b0; /* رنگ متن فرعی */
+    font-size: 0.9rem; /* کاهش اندازه فونت */
+    color: #b0b0b0;
+    margin: 5px 0 0; /* تنظیم margin */
 }
 
 /* Main Content */
@@ -226,11 +235,11 @@ footer a:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     header p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .person-card {
@@ -240,4 +249,26 @@ footer a:hover {
     .person-details img, .person-details video {
         max-height: 800px;
     }
+    .container {
+    width: 90%;
+    max-width: 1200px; /* حداکثر عرض برای دسکتاپ */
+    margin: 0 auto;
+    padding: 20px;
+}
+    
+/* برای موبایل‌ها */
+@media (max-width: 480px) {
+    .person-details {
+        width: 100%;
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header p {
+        font-size: 0.7rem;
+    }
+}
 }
