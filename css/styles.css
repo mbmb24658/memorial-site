@@ -168,17 +168,17 @@ main {
 
 .person-details th, .person-details td {
     border: 1px solid #ddd;
-    padding: 8px;
+/*     padding: 8px; */
     text-align: center;
 }
 
 .person-details th {
     background-color: #04AA6D;
-    color: white;
 }
 
 .person-details tr:nth-child(even) {
     background-color: #f2f2f2;
+    color: #000000;
 }
 
 .person-details tr:hover {
