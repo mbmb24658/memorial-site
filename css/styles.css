@@ -185,9 +185,9 @@ main {
     border-radius: 10px;
 }
 .p3 {
-    font-family: IranNastaliq;
+    font-family: 'IranNastaliq';
     text-align:center;
-    background-color: #8e64ba;
+    background-color: #000000;
     font-size: 1.2rem;
     line-height: 1.8;
     color: #e0e0e0;
