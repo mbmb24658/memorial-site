@@ -166,7 +166,7 @@ main {
 }
 .p1 {
     font-family: Bnazanin;
-    text-align: justify;
+    text-align: right;
     background-color: #b46161;
     font-size: 1.2rem;
     line-height: 1.8;
@@ -176,7 +176,7 @@ main {
 }
 .p2 {
     font-family: Bnazanin;
-    text-align: justify;
+    text-align: right;
     background-color: #8e64ba;
     font-size: 1.2rem;
     line-height: 1.8;
@@ -186,7 +186,7 @@ main {
 }
 .p3 {
     font-family: IranNastaliq;
-    text-align: justify;
+    text-align:center;
     background-color: #8e64ba;
     font-size: 1.2rem;
     line-height: 1.8;
