@@ -47,7 +47,6 @@ header {
     text-align: center;
     border-bottom: 2px solid #333;
     height: 60px;
-    display: block;
     position: fixed; /* هدر ثابت می‌شود */
     top: 0; /* هدر در بالای صفحه قرار می‌گیرد */
     left: 0; /* هدر از سمت چپ شروع می‌شود */
