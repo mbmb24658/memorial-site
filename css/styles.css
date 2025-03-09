@@ -53,14 +53,14 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 40;
     font-size: 1.5rem;
 }
 
 header p {
     font-size: 0.9rem;
     color: #b0b0b0;
-    margin: 5px 0 0;
+    margin: 5px;
 }
 
 /* Main Content */
