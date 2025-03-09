@@ -43,7 +43,7 @@ body {
 header {
     background-color: #121212;
     color: #ffffff;
-    padding: 20px 10px;
+    padding: 60px 40px;
     text-align: center;
     border-bottom: 2px solid #333;
     height: 60px;
@@ -56,19 +56,21 @@ header {
 }
 
 header h1 {
-    margin: 40px;
+    margin: 5px;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 header p {
     font-size: 0.9rem;
     color: #b0b0b0;
     margin: 5px;
+    text-align: center;
 }
 
 /* Main Content */
 main {
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 /* Person List */
