@@ -43,7 +43,7 @@ body {
 header {
     background-color: #121212;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 20px 10px;
     text-align: center;
     border-bottom: 2px solid #333;
     height: 60px;
@@ -134,7 +134,7 @@ main {
 /* Person Details */
 .person-details {
     font-family: Bnazanin;
-    max-width: 400px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
