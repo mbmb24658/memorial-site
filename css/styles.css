@@ -45,7 +45,7 @@ header {
     padding: 10px 0;
     text-align: center;
     border-bottom: 2px solid #333;
-    height: 80px;
+    height: 120px;
     position: fixed; /* هدر ثابت می‌شود */
     top: 0; /* هدر در بالای صفحه قرار می‌گیرد */
     left: 0; /* هدر از سمت چپ شروع می‌شود */
@@ -292,5 +292,8 @@ footer a:hover {
 
     .person-details img, .person-details video {
         max-height: 300px;
+    }
+    .p3 {
+        font-size: 1rem;
     }
 }
