@@ -29,7 +29,6 @@ body {
     src: url('fonts/IranNastaliq.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    font-size: 16rem;
 }
 
 @font-face {
@@ -200,6 +199,7 @@ main {
     color: #e0e0e0;
     padding: 15px;
     border-radius: 10px;
+    font-size: 6rem;
 }
 
 
